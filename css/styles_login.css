@@ -1,0 +1,77 @@
+body{
+    
+    background-image: linear-gradient( #a1d3f9,#62cbeb,#3831f3);
+    /* background: url("bgimg2.jpg") ; */
+    
+}
+.cardbody-color{
+  background-color: #0078AA;
+  border: 1px solid;
+  padding: 10px;
+  /*box-shadow: 5px 10px 18px rgb(21, 17, 18); */
+  margin-bottom: 40px;
+  border-radius: 2px;
+}
+
+.btn-color{
+  background-color: #0e1c36;
+  color: #fff;
+}
+
+.profile-image-pic{
+  height: 200px;
+  width: 200px;
+  object-fit:cover;
+}
+
+.hovernow{
+  transition: box-shadow 0.3s;
+  border-color: black;
+}
+
+.hovernow:hover {
+  box-shadow: 2px 10px 15px rgba(0, 0, 0, 0.8);
+}
+
+
+a{
+  text-decoration: none;
+}
+
+.heading{
+  
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: 500;
+  font-size: xx-large;
+  color: rgb(255, 255, 255);
+  text-shadow: 5px 5px 8px #1c1c1c;
+}
+
+.logoutbtn{
+    
+  background-color: #d866a5;
+  border-radius: 2%;
+  margin-top: 8%;
+  margin-bottom: 5px;
+  border: none;
+  padding: 2px; 
+  padding-left: 10px;
+  padding-right: 10px;
+  color: #FFCACA;
+  transition: box-shadow 0.3s;
+
+}
+.logoutbtn:hover{
+  box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.8);
+  background-color: #f79e9e;
+  color: black;
+}
+.selectcss{
+  border-radius: 5px;
+  padding: 3px;
+}
+.eye{
+  position: relative;
+  left: 100%;
+  bottom: 2rem;
+}
